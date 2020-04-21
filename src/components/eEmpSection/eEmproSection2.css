@@ -1,0 +1,17 @@
+.container.bdr {
+    border: none;
+    border-radius: 3px;
+    padding-bottom: 18px;
+    background-color:none;
+    background-image: none;
+}
+.row.bdr.mt-4 {
+    background-color: none !important;
+}
+
+.row {
+    background: none;
+    border: none;
+
+}
+

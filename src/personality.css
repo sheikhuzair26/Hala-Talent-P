@@ -1,0 +1,15 @@
+.question {
+    padding: 30px;
+    box-shadow: 0px 10px 5px 0px rgba(179,179,179,1);
+    /* background: url(./img/employe-bg.jpg) no-repeat */
+    
+}
+
+.jumbotron{
+    background-color: none;
+    background: url('./img/quizNew.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important; 
+    height: 257px;
+}
