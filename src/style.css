@@ -633,12 +633,13 @@ footer a{
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 4px;
-  margin-right: 17px;
+  /* margin-right: 17px; */
 }
 
 .member.center h2 {
   background-color: #1c327e;
   padding: 10px 30px 10px 30px;
+  text-align: center;
   width: 90%;
   color: white;
   margin-left: 18px;

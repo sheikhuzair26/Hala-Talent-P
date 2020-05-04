@@ -19,21 +19,27 @@ class JSection2 extends React.Component {
             <div className="row">
               <div className="col-lg-12">
                 <div className="row">
-                  <div className="col-lg-4 offset-2">
+                <div className="col-lg-2 ">
+                </div>
+                  <div className="col-lg-4 col-sm-6 ">
                     <div className="member center">
                       <h4>Monthly</h4>
                       <h2>$600</h2>
-                      {/* <ul>
-                <li>10 job posting</li>
-                <li>5 Featured job</li>
-                <li>Job displayed for 20 days</li>
-                <li>Premium Support 24/7</li>
-                <li>For Employer</li>
-              </ul> */}
+                      <h6
+                        style={{
+                          color: "white",
+                          padding: "0px 10px",
+                          textAlign: "center",
+                        }}
+                      >
+                        Save XX% by purchasing an annual subscription.
+                      </h6>
+
+                 
                       <NavLink to="/subscriptionForm">Subscribe</NavLink>
                     </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 col-sm-6 ">
                     <div className="member center">
                       <h4>Yearly</h4>
                       <h2> $1000</h2>
@@ -49,6 +55,9 @@ class JSection2 extends React.Component {
                       <NavLink to="/subscriptionForm">Subscribe</NavLink>
                     </div>
                   </div>
+                  <div className="col-lg-2 ">
+                </div>
+
                 </div>
               </div>
             </div>
