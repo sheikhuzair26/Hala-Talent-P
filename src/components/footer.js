@@ -10,7 +10,7 @@ class Footer extends React.Component{
       <div className="row">
         <div className="col-lg-12">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6 ">
               <div className="foot-nav animated bounceInDown">
                 <h2>Quick Links</h2>
                 <ul>
@@ -22,7 +22,7 @@ class Footer extends React.Component{
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6 ">
               <div className="foot-nav animated bounceInDown">
                 <h2>For Talent</h2>
                 <ul>
@@ -34,7 +34,7 @@ class Footer extends React.Component{
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6 ">
               <div className="foot-nav animated bounceInDown">
                 <h2>For Employer</h2>
                 <ul>
@@ -46,26 +46,26 @@ class Footer extends React.Component{
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6 ">
               <div className="foot-nav animated bounceInDown">
                 <h2>Social Links</h2>
                <ul>
-                 <li><NavLink to="#">Facebook >></NavLink></li>
-                 <li><NavLink to="#">Twitter >></NavLink></li>
-                 <li><NavLink to="#">Pinterest >></NavLink></li>
-                 <li><NavLink to="#">Linkedin >></NavLink></li>
-                 <li><NavLink to="#">Instagram >></NavLink></li>
+                 <li><NavLink to="#">Facebook </NavLink></li>
+                 <li><NavLink to="#">Twitter </NavLink></li>
+                 <li><NavLink to="#">Pinterest </NavLink></li>
+                 <li><NavLink to="#">Linkedin </NavLink></li>
+                 <li><NavLink to="#">Instagram </NavLink></li>
                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-12">
+        {/* <div className="col-lg-12">
           <div className="foot-b animated bounceInDown">
             <hr />
             <NavLink to="#">All Right Reserved @4Strokes 2020</NavLink>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </footer>

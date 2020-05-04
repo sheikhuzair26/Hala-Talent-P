@@ -513,12 +513,14 @@ body {
 
 footer {
   background-color: #2a3646;
-  /* background: url(./img/Top-banner.jpg) no-repeat; */
   background-size: cover;
-
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 40px;
+}
+footer a{
+  color: #2e97d1;
 }
 
 .foot-nav h2 {
@@ -2007,4 +2009,10 @@ h2.employHd {
   align-items: baseline;
   
 }
-/* Social Logins */
+/* Footer */
+
+@media screen and (max-width: 768px) {
+  footer{
+ 
+  }
+}
